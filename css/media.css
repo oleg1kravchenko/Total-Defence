@@ -410,7 +410,7 @@
         margin-bottom: 30px;
     }
     .hero__companies {
-        gap: 15px;
+        gap: 10px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -420,6 +420,9 @@
     .hero {
         padding-top: 145px;
         padding-bottom: 60px;
+    }
+    .hero__companies__item:last-child {
+        margin-right: 5%;
     }
 }
 
