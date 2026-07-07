@@ -409,6 +409,18 @@
     .checklist .title {
         margin-bottom: 30px;
     }
+    .hero__companies {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero__companies img {
+        max-width: 80%;
+    }
+    .hero {
+        padding-top: 145px;
+        padding-bottom: 60px;
+    }
 }
 
 /* Small Devices, Tablets */

@@ -35,23 +35,6 @@ $(document).ready(function () {
 		]
 	});
 
-	$('.slider-marquee').slick({
-		arrows: false,
-		dots: false,
-		infinite: true,
-		touchThreshold: 5,
-		variableWidth: true,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		speed: 10000,
-		autoplay: true,
-		autoplaySpeed: 0,
-		cssEase: 'linear',
-		prevArrow: '<div class="slick-prev slick-arrow"><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><div/>',
-	});
-
-
 });
 
 
