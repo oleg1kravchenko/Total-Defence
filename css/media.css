@@ -1,0 +1,438 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1550px) {
+    body {
+        font-size: 15px;
+    }
+    .hero__title {
+        font-size: 53px;
+        max-width: 970px;
+        margin-bottom: 45px;
+    }
+    .hero__text {
+        font-size: 18px;
+        max-width: 870px;
+    }
+    .hero__button {
+        padding-top: 27px;
+    }
+    .hero__companies {
+        padding-top: 65px;
+    }
+    .etaps__text, .structura__text, .about__text {
+        font-size: 18px;
+        column-gap: 25px;
+    }
+    .about__grid {
+        gap: 18px;
+    }
+    .about__item {
+        padding: 16px;
+        font-size: 16px;
+    }
+    .title-small {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .benefits__grid {
+        margin-bottom: 58px;
+        gap: 45px 20px;
+    }
+    .benefits__item {
+        font-size: 18px;
+        gap: 24px;
+    }
+    .benefits__item::before {
+        width: 68px;
+        height: 68px;
+    }
+    .benefits__image {
+        height: 162px;
+    }
+    .title {
+        font-size: 37px;
+    }
+    .etaps,
+    .checklist,
+    .requirements,
+    .structura,
+    .about,
+    .audience {
+        padding: 85px 0;
+    }
+    .benefits {
+        padding-top: 80px;
+    }
+    .audience__grid {
+        gap: 18px;
+    }
+    .audience__item {
+        padding: 29px 16px;
+        padding-right: 26px;
+    }
+    .checklist__item-icon, .audience__icon {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 25px;
+    }
+    .checklist__item-icon img, .audience__icon img {
+        width: 27px;
+    }
+    .structura .title {
+        margin-bottom: 40px;
+    }
+    .structura__text {
+        margin-bottom: 45px;
+    }
+    .structura__item {
+        margin-bottom: 22px;
+        padding: 12px 33px;
+        gap: 25px;
+    }
+    .structura__item-count {
+        font-size: 63px;
+        width: 48px;
+    }
+    .structura__item-title {
+        font-size: 22px;
+        padding-right: 16px;
+    }
+    .structura__item-date, .structura__item-location {
+        font-size: 18px;
+        gap: 18px;
+    }
+    .structura__item-date::before, .structura__item-location::before {
+        width: 22px;
+        height: 22px;
+    }
+    .btn {
+        height: 55px;
+        padding: 0 40px;
+        font-size: 15px;
+    }
+    .structura_button {
+        padding-top: 30px;
+    }
+    .title-small--subtitle {
+        max-width: 835px;
+        margin-bottom: 30px
+    }
+
+    .requirements__item {
+        padding: 22px 26px;
+    }
+    .requirements__item-title {
+        padding: 5px 18px;
+        font-size: 18px;
+    }
+    .requirements__item-icon {
+        width: 36px;
+        height: 36px;
+    }
+    .requirements__item-icon img {
+        width: 21px;
+    }
+    .requirements__item-wrap {
+        gap: 18px;
+    }
+    .requirements__item-descr {
+        font-size: 13px;
+    }
+    .checklist .title {
+        margin-bottom: 45px;
+    }
+    .checklist::before {
+        height: 800px;
+    }
+    .etaps {
+        padding-top: 110px;
+    }
+    .etaps__item-count {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+    .etaps__item-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .etaps__grid {
+        padding-top: 46px;
+        gap: 20px;
+    }
+    .item-question__head {
+        font-size: 18px;
+        padding: 18px 25px;
+    }
+    .item-question__content {
+        padding: 25px;
+        padding-top: 0;
+    }
+    .questions__grid {
+        gap: 20px;
+    }
+    .item-question {
+        margin-bottom: 15px;
+    }
+    .questions {
+        padding-bottom: 85px;
+    }
+    .footer {
+        padding: 45px 0;
+    }
+    .benefits .title {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .etaps__text, .structura__text, .about__text {
+        font-size: 16px;
+        column-gap: 15px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .hero__companies {
+        padding-top: 50px;
+        gap: 30px;
+    }
+    .hero__text {
+        font-size: 16px;
+        max-width: 752px;
+    }
+    .hero__title {
+        font-size: 45px;
+        max-width: 840px;
+        margin-bottom: 40px;
+    }
+    .about__item {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .title-small {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .benefits__item {
+        font-size: 16px;
+        gap: 20px;
+    }
+    .benefits__item::before {
+        width: 55px;
+        height: 55px;
+    }
+    .benefits__grid {
+        margin-bottom: 48px;
+        gap: 30px 18px;
+    }
+    .slider-four .slick-slide {
+        padding: 0 6px;
+    }
+    .slider-four .slick-list {
+        margin: 0 -6px;
+    }
+    .benefits__image {
+        height: 138px;
+    }
+    .audience .title {
+        margin-bottom: 28px;
+    }
+    .title {
+        font-size: 33px;
+    }
+    .structura__item-title {
+        font-size: 20px;
+    }
+    .structura__item-date, .structura__item-location {
+        font-size: 16px;
+        gap: 16px;
+    }
+    .requirements__grid {
+        gap: 15px;
+    }
+    .requirements__item-info {
+        padding: 22px 12px;
+    }
+    .requirements__item {
+        padding: 18px 15px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .etaps__text, .structura__text, .about__text {
+        columns: initial;
+    }
+    .etaps__grid,
+    .checklist__grid,
+    .about__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .benefits__grid {
+        grid-template-columns: 1fr;
+        margin-bottom: 40px;
+        gap: 20px 14px;
+    }
+    .audience__grid {
+        display: block;
+    }
+    .structura__item {
+        padding: 12px;
+        gap: 15px 15px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .structura__item-title {
+        font-size: 18px;
+        padding-right: 0;
+        flex: 1;
+    }
+    .requirements__grid {
+        display: block;
+    }
+    .questions__grid {
+        display: block;
+    }
+    .etaps, .checklist, .requirements, .structura, .about, .audience {
+        padding: 50px 0;
+    }
+    .requirements__item-grid {
+        display: block;
+    }
+    .requirements__item {
+        margin-bottom: 20px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .structura__item-date {
+        width: auto;
+    }
+    .structura .title {
+        margin-bottom: 25px;
+    }
+    .audience__item {
+        padding: 25px 15px;
+        margin-bottom: 20px;
+    }
+    .audience__item:last-child {
+        margin-bottom: 0;
+    }
+    .benefits__image {
+        height: 180px;
+    }
+    .benefits .title {
+        margin-bottom: 30px;
+    }
+    .benefits {
+        padding-top: 50px;
+    }
+    .about__grid {
+        gap: 10px;
+    }
+    .about__item {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .about__item .title-small {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .logo img {
+        width: 160px;
+    }
+    .hero__title {
+        font-size: 34px;
+    }
+    .hidden-mob {
+        display: none;
+    }
+    .slider-marquee {
+        margin-top: 40px;
+        opacity: 0.7;
+    }
+    .slider-marquee .slick-list {
+        overflow: visible;
+    }
+    .structura__item-location {
+        margin-left: auto;
+    }
+    .requirements__item-info {
+        padding: 15px 10px;
+        font-size: 13px;
+        line-height: 140%;
+    }
+    .requirements__item-head {
+        margin-bottom: 18px;
+        gap: 6px;
+    }
+    .requirements__item-wrap {
+        gap: 11px;
+    }
+    .etaps__grid {
+        padding-top: 20px;
+    }
+    .questions .title {
+        margin-bottom: 26px;
+    }
+    .item-question__head {
+        font-size: 16px;
+        padding: 15px 18px;
+    }
+    .item-question__content {
+        padding: 18px;
+        padding-top: 0;
+    }
+    .item-question__head::after {
+        width: 25px;
+        height: 25px;
+    }
+    .questions {
+        padding-bottom: 50px;
+    }
+    .benefits__item {
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .show-mob {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1550px) {
+    .container {
+        max-width: 1310px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .structura {
+        background-size: 100% auto;
+    }
+}
+
+/*hovers*/
+@media (hover: hover) {
+    .btn:hover {
+        background: #000;
+    }
+}
+
+/*mobile hovers*/
+@media (hover: none) {
+    .btn:active {
+        background: #000;
+    }
+}
