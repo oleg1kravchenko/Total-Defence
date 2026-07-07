@@ -31,12 +31,6 @@ $(document).ready(function () {
 				settings: {
 					slidesToShow: 2,
 				}
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 1,
-				}
 			}
 		]
 	});
@@ -45,11 +39,11 @@ $(document).ready(function () {
 		arrows: false,
 		dots: false,
 		infinite: true,
-		touchThreshold: 1000,
+		touchThreshold: 5,
 		variableWidth: true,
-		slidesToShow: 5,
+		slidesToShow: 3,
 		slidesToScroll: 1,
-		speed: 22000,
+		speed: 15000,
 		autoplay: true,
 		autoplaySpeed: 0,
 		cssEase: 'linear',

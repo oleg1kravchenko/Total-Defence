@@ -288,6 +288,7 @@
     .structura__item-title {
         font-size: 18px;
         padding-right: 0;
+        min-width: 70%;
         flex: 1;
     }
     .requirements__grid {
@@ -310,6 +311,7 @@
     }
     .structura__item-date {
         width: auto;
+        min-width: 55%;
     }
     .structura .title {
         margin-bottom: 25px;
@@ -322,10 +324,17 @@
         margin-bottom: 0;
     }
     .benefits__image {
-        height: 180px;
+        height: 115px;
     }
     .benefits .title {
-        margin-bottom: 30px;
+        max-width: 240px;
+        margin-bottom: 25px;
+    }
+    .slider-four .slick-slide {
+        padding: 0 4px;
+    }
+    .slider-four .slick-list {
+        margin: 0 -4px;
     }
     .benefits {
         padding-top: 50px;
@@ -396,6 +405,9 @@
     .benefits__item {
         font-size: 14px;
         gap: 10px;
+    }
+    .checklist .title {
+        margin-bottom: 30px;
     }
 }
 
