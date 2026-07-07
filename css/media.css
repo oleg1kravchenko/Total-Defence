@@ -415,7 +415,7 @@
         justify-content: center;
     }
     .hero__companies img {
-        max-width: 80%;
+        max-width: 80%; 
     }
     .hero {
         padding-top: 145px;

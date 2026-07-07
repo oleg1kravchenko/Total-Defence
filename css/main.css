@@ -155,12 +155,12 @@ body {
 	padding-top: 40px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center; 
 }
 .btn {
 	height: 60px;
 	padding: 0 45px;
-	font-size: 16px;
+	font-size: 16px; 
 	border: 2px solid #fff;
 	border-radius: 10px;
 	box-shadow: 0 2px 27px 0 rgba(0, 0, 0, 0.35);
