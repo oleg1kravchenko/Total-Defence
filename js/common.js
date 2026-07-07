@@ -43,7 +43,7 @@ $(document).ready(function () {
 		variableWidth: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
-		speed: 15000,
+		speed: 10000,
 		autoplay: true,
 		autoplaySpeed: 0,
 		cssEase: 'linear',
